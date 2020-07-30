@@ -151,7 +151,7 @@ If you want to execute an action immediately, you can call the bot's now() funct
     });
     Bot.now(twitterBotAction);
     
-The now() function takes either an actionName identifier, a function with the same signaure as a TwitterBotAction, or an actual TwitterBotAction object
+The now() function takes either an actionName identifier, a function with the same signature as a TwitterBotAction, or an actual TwitterBotAction object
 
 You can schedule actions into the future by calling
 
